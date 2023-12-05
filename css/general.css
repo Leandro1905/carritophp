@@ -1,0 +1,87 @@
+/*
+ALUMNO:KUMMER LEANDRO
+*/
+
+ *{
+
+    margin: 0;
+} 
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+/*CABESA*/
+body {
+    background-color: black;
+    font-family: Poppins-Regular;
+    color: white;
+}
+
+i {
+    margin-right: 6px;
+    color: bisque;
+}
+
+.caja1{
+    width: 16%;
+}
+.logo{
+    width: 110px;
+    float: left;
+    margin-left: 20%;
+}
+ol li{
+    width: 22%;
+    float: left;
+    margin-top: 40px;
+    color: white;
+    list-style: none;
+    text-align: center;
+    
+}
+ol li a{
+    color: bisque;
+    text-decoration: none;
+}
+
+a:hover, a:hover i {
+    color: rgb(201, 172, 6);
+}
+
+header{
+    height: 110px;
+    border-bottom: 1px solid white;
+}
+
+/*Pie de pagina*/
+
+#pie a{
+    text-decoration: none;
+    color: white;
+}
+
+#pie p{
+    width: 100%;
+    text-align: end;
+    margin: 0px;
+}
+#pie{
+    float: right;
+    margin-top: 100px; 
+}
+
+#pie2{
+    float: right;
+    margin-top: 1300px; 
+}
+#pie2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#pie2 p{
+    width: 100%;
+    text-align: end;
+    margin: 0px;
+}
